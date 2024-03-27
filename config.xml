@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.kim.portfolio" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Oraa</name>
+    <description>Portfolio App Kim Daniel Oraa</description>
+    <author email="oraakimdaniel@gmail.com" href="https://cordova.apache.org">
+        Kim Daniel Oraa
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <platform name="android">
+    <!-- Splash screen preferences -->
+    <preference name="SplashMathAllowsInlineMediaPlayback" value="false" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="SplashScreenDeploymentTarget" value="all" />
+    <preference name="SplashScreenSpinnerColor" value="#FFFFFF" />
+
+    <!-- Splash screen images -->
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/hdpi.png" density="hdpi"/>
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/ldpi.png" density="ldpi"/>
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/mdpi.png" density="mdpi"/>
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/xhdpi.png" density="xhdpi"/>
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/xxhdpi.png" density="xxhdpi"/>
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/xxxhdpi.png" density="xxxhdpi"/>
+</platform>
+</widget>
